@@ -1,0 +1,9 @@
+main.cpp: Entry point to start the simulation.
+simulator.cpp, simulator.hpp: Classes that model the simulator.
+population.cpp, population.hpp: Classes that model the population of agents.
+agent.hpp: Pure abstract class that models the agent.
+fickle.cpp, fickle.hpp: Classes that model fickle agent.
+crowd.cpp, crowd.hpp: Classes that model follow the crowd agent.
+
+sample.in sample.out: Input/Output files provided.
+ff242.in ff242.out: Additional test cases.

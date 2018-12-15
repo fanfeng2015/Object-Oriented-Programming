@@ -1,0 +1,17 @@
+main.cpp: Entry point to start the simulation.
+simulator.cpp, simulator.hpp: Class that models the simulator.
+population.cpp, population.hpp: Class that models the population of agents.
+agent.hpp: Pure abstract class that models the agent.
+agentbase.hpp: Class derived from Agent, and from which Fickle, Crowd and Nakamoto derive.
+fickle.hpp: Class that models fickle agent.
+crowd.hpp: Class that models follow the crowd agent.
+nakamoto.hpp: Class that models Nakamoto agent.
+---------------------------------------------------------------------------------------------------
+blockchain.cpp blockchain.hpp: Blockchain that can be extended and printed.
+block.cpp block.hpp: Block on a certain blockchain.
+SPtr.cpp SPtr.hpp: Smart pointer responsible for deleting blocks when they are no longer needed.
+serial.cpp serial.hpp: Unique serial ID generator.
+
+
+sample.in sample.out: Input/Output files provided.
+ff242.in ff242.out: Additional test cases.

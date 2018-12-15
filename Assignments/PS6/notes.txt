@@ -1,0 +1,8 @@
+main.cpp: Entry point to begin executions on the bloackchains.
+driver.cpp driver.hpp: Driver program.
+blockchain.cpp blockchain.hpp: Blockchain that can be extended and printed.
+block.cpp block.hpp: Block on a certain blockchain.
+SPtr.cpp SPtr.hpp: Smart pointer responsible for deleting blocks when they are no longer needed.
+serial.cpp serial.hpp: Unique serial ID generator.
+
+/outputs: Test case results.

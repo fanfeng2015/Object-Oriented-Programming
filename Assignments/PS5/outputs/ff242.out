@@ -1,0 +1,733 @@
+##############################################################
+-------------Modest Size of Population (N = 1000)-------------
+
+[ff242@python ps5-ff242]$ ./consensus2 1000 0.5 0.5 1541033658
+
+---------------------------------------------------------------
+	Fan Feng
+	CPSC 427/527
+	Wed Nov  7 2018	15:41:52
+---------------------------------------------------------------
+Welcome to Consensus Simulator!
+Using seed: 1541033658
+    numAgents: 1000
+   probFickle: 0.5
+      probOne: 0.5
+Population statistics: 
+    numFickle: 473
+     numCrowd: 527
+      numOnes: 492
+Results of simulation: 
+       Rounds: 33040
+    Consensus: 0
+
+---------------------------------------------------------------
+Normal termination.
+
+
+
+[ff242@python ps5-ff242]$ ./consensus2 1000 0.7 0.5 1541033658
+
+---------------------------------------------------------------
+	Fan Feng
+	CPSC 427/527
+	Wed Nov  7 2018	15:42:09
+---------------------------------------------------------------
+Welcome to Consensus Simulator!
+Using seed: 1541033658
+    numAgents: 1000
+   probFickle: 0.7
+      probOne: 0.5
+Population statistics: 
+    numFickle: 709
+     numCrowd: 291
+      numOnes: 492
+
+Results of simulation: 
+       Rounds: 68173
+    Consensus: 1
+
+---------------------------------------------------------------
+Normal termination.
+
+
+
+[ff242@python ps5-ff242]$ ./consensus2 1000 0.9 0.5 1541033658
+
+---------------------------------------------------------------
+	Fan Feng
+	CPSC 427/527
+	Wed Nov  7 2018	15:42:22
+---------------------------------------------------------------
+Welcome to Consensus Simulator!
+Using seed: 1541033658
+    numAgents: 1000
+   probFickle: 0.9
+      probOne: 0.5
+Population statistics: 
+    numFickle: 892
+     numCrowd: 108
+      numOnes: 492
+Results of simulation: 
+       Rounds: 69094
+    Consensus: 1
+
+---------------------------------------------------------------
+Normal termination.
+
+
+
+[ff242@python ps5-ff242]$ ./consensus2 1000 1.0 0.5 1541033658
+
+---------------------------------------------------------------
+	Fan Feng
+	CPSC 427/527
+	Wed Nov  7 2018	15:42:39
+---------------------------------------------------------------
+Welcome to Consensus Simulator!
+Using seed: 1541033658
+    numAgents: 1000
+   probFickle: 1
+      probOne: 0.5
+Population statistics: 
+    numFickle: 1000
+     numCrowd: 0
+      numOnes: 492
+Results of simulation: 
+       Rounds: 838232
+    Consensus: 0
+
+---------------------------------------------------------------
+Normal termination.
+
+
+
+[ff242@python ps5-ff242]$ ./consensus2 1000 0.3 0.5 1541033658
+
+---------------------------------------------------------------
+	Fan Feng
+	CPSC 427/527
+	Wed Nov  7 2018	15:42:58
+---------------------------------------------------------------
+Welcome to Consensus Simulator!
+Using seed: 1541033658
+    numAgents: 1000
+   probFickle: 0.3
+      probOne: 0.5
+Population statistics: 
+    numFickle: 284
+     numCrowd: 716
+      numOnes: 492
+Results of simulation: 
+       Rounds: 34400
+    Consensus: 0
+
+---------------------------------------------------------------
+Normal termination.
+
+
+
+[ff242@python ps5-ff242]$ ./consensus2 1000 0.1 0.5 1541033658
+
+---------------------------------------------------------------
+	Fan Feng
+	CPSC 427/527
+	Wed Nov  7 2018	15:43:12
+---------------------------------------------------------------
+Welcome to Consensus Simulator!
+Using seed: 1541033658
+    numAgents: 1000
+   probFickle: 0.1
+      probOne: 0.5
+Population statistics: 
+    numFickle: 116
+     numCrowd: 884
+      numOnes: 492
+Results of simulation: 
+       Rounds: 17895
+    Consensus: 0
+
+---------------------------------------------------------------
+Normal termination.
+
+
+
+[ff242@python ps5-ff242]$ ./consensus2 1000 0.0 0.5 1541033658
+
+---------------------------------------------------------------
+	Fan Feng
+	CPSC 427/527
+	Wed Nov  7 2018	15:43:28
+---------------------------------------------------------------
+Welcome to Consensus Simulator!
+Using seed: 1541033658
+    numAgents: 1000
+   probFickle: 0
+      probOne: 0.5
+Population statistics: 
+    numFickle: 0
+     numCrowd: 1000
+      numOnes: 492
+Results of simulation: 
+       Rounds: 18790
+    Consensus: 0
+
+---------------------------------------------------------------
+Normal termination.
+
+
+
+[ff242@python ps5-ff242]$ ./consensus2 1000 0.5 0.7 1541033658
+
+---------------------------------------------------------------
+	Fan Feng
+	CPSC 427/527
+	Wed Nov  7 2018	15:45:21
+---------------------------------------------------------------
+Welcome to Consensus Simulator!
+Using seed: 1541033658
+    numAgents: 1000
+   probFickle: 0.5
+      probOne: 0.7
+Population statistics: 
+    numFickle: 473
+     numCrowd: 527
+      numOnes: 697
+Results of simulation: 
+       Rounds: 21132
+    Consensus: 1
+
+---------------------------------------------------------------
+Normal termination.
+
+
+
+[ff242@python ps5-ff242]$ ./consensus2 1000 0.5 0.9 1541033658
+
+---------------------------------------------------------------
+	Fan Feng
+	CPSC 427/527
+	Wed Nov  7 2018	15:45:26
+---------------------------------------------------------------
+Welcome to Consensus Simulator!
+Using seed: 1541033658
+    numAgents: 1000
+   probFickle: 0.5
+      probOne: 0.9
+Population statistics: 
+    numFickle: 473
+     numCrowd: 527
+      numOnes: 895
+Results of simulation: 
+       Rounds: 17574
+    Consensus: 1
+
+---------------------------------------------------------------
+Normal termination.
+
+
+
+[ff242@python ps5-ff242]$ ./consensus2 1000 0.5 1.0 1541033658
+
+---------------------------------------------------------------
+	Fan Feng
+	CPSC 427/527
+	Wed Nov  7 2018	15:45:29
+---------------------------------------------------------------
+Welcome to Consensus Simulator!
+Using seed: 1541033658
+    numAgents: 1000
+   probFickle: 0.5
+      probOne: 1
+Population statistics: 
+    numFickle: 473
+     numCrowd: 527
+      numOnes: 1000
+Results of simulation: 
+       Rounds: 0
+    Consensus: 1
+
+---------------------------------------------------------------
+Normal termination.
+
+
+
+[ff242@python ps5-ff242]$ ./consensus2 1000 0.5 1.0 1541033658
+
+---------------------------------------------------------------
+	Fan Feng
+	CPSC 427/527
+	Wed Nov  7 2018	15:45:35
+---------------------------------------------------------------
+Welcome to Consensus Simulator!
+Using seed: 1541033658
+    numAgents: 1000
+   probFickle: 0.5
+      probOne: 1
+Population statistics: 
+    numFickle: 473
+     numCrowd: 527
+      numOnes: 1000
+Results of simulation: 
+       Rounds: 0
+    Consensus: 1
+
+---------------------------------------------------------------
+Normal termination.
+
+
+
+[ff242@python ps5-ff242]$ ./consensus2 1000 0.5 0.1 1541033658
+
+---------------------------------------------------------------
+	Fan Feng
+	CPSC 427/527
+	Wed Nov  7 2018	15:45:44
+---------------------------------------------------------------
+Welcome to Consensus Simulator!
+Using seed: 1541033658
+    numAgents: 1000
+   probFickle: 0.5
+      probOne: 0.1
+Population statistics: 
+    numFickle: 473
+     numCrowd: 527
+      numOnes: 96
+Results of simulation: 
+       Rounds: 13513
+    Consensus: 0
+
+---------------------------------------------------------------
+Normal termination.
+
+
+
+[ff242@python ps5-ff242]$ ./consensus2 1000 0.5 0.0 1541033658
+
+---------------------------------------------------------------
+	Fan Feng
+	CPSC 427/527
+	Wed Nov  7 2018	15:45:48
+---------------------------------------------------------------
+Welcome to Consensus Simulator!
+Using seed: 1541033658
+    numAgents: 1000
+   probFickle: 0.5
+      probOne: 0
+Population statistics: 
+    numFickle: 473
+     numCrowd: 527
+      numOnes: 0
+Results of simulation: 
+       Rounds: 0
+    Consensus: 0
+
+---------------------------------------------------------------
+Normal termination.
+
+
+
+
+
+###############################################################
+----------Edge Cases on Size of Population (N = 1000)----------
+[ff242@python ps5-ff242]$ ./consensus2 0 0.5 0.5 1541033658
+
+---------------------------------------------------------------
+	Fan Feng
+	CPSC 427/527
+	Wed Nov  7 2018	15:51:05
+---------------------------------------------------------------
+Welcome to Consensus Simulator!
+Using seed: 1541033658
+    numAgents: 0
+   probFickle: 0.5
+      probOne: 0.5
+Population statistics: 
+    numFickle: 0
+     numCrowd: 0
+      numOnes: 0
+Results of simulation: 
+       Rounds: 0
+    Consensus: 1
+
+---------------------------------------------------------------
+Normal termination.
+
+
+
+[ff242@python ps5-ff242]$ ./consensus2 1 0.5 0.5 1541033658
+
+---------------------------------------------------------------
+	Fan Feng
+	CPSC 427/527
+	Wed Nov  7 2018	15:51:11
+---------------------------------------------------------------
+Welcome to Consensus Simulator!
+Using seed: 1541033658
+    numAgents: 1
+   probFickle: 0.5
+      probOne: 0.5
+Population statistics: 
+    numFickle: 1
+     numCrowd: 0
+      numOnes: 1
+Results of simulation: 
+       Rounds: 0
+    Consensus: 1
+
+---------------------------------------------------------------
+Normal termination.
+
+
+
+[ff242@python ps5-ff242]$ ./consensus2 10 0.5 0.5 1541033658
+
+---------------------------------------------------------------
+	Fan Feng
+	CPSC 427/527
+	Wed Nov  7 2018	15:51:23
+---------------------------------------------------------------
+Welcome to Consensus Simulator!
+Using seed: 1541033658
+    numAgents: 10
+   probFickle: 0.5
+      probOne: 0.5
+Population statistics: 
+    numFickle: 6
+     numCrowd: 4
+      numOnes: 2
+Results of simulation: 
+       Rounds: 8
+    Consensus: 0
+
+---------------------------------------------------------------
+Normal termination.
+
+
+[ff242@python ps5-ff242]$ ./consensus2 100 0.5 0.5 1541033658
+
+---------------------------------------------------------------
+	Fan Feng
+	CPSC 427/527
+	Wed Nov  7 2018	15:52:47
+---------------------------------------------------------------
+Welcome to Consensus Simulator!
+Using seed: 1541033658
+    numAgents: 100
+   probFickle: 0.5
+      probOne: 0.5
+Population statistics: 
+    numFickle: 56
+     numCrowd: 44
+      numOnes: 49
+Results of simulation: 
+       Rounds: 2174
+    Consensus: 0
+
+---------------------------------------------------------------
+Normal termination.
+
+
+
+[ff242@python ps5-ff242]$ ./consensus2 1 0.9 0.5 1541033658
+
+---------------------------------------------------------------
+	Fan Feng
+	CPSC 427/527
+	Wed Nov  7 2018	15:52:51
+---------------------------------------------------------------
+Welcome to Consensus Simulator!
+Using seed: 1541033658
+    numAgents: 1
+   probFickle: 0.9
+      probOne: 0.5
+Population statistics: 
+    numFickle: 1
+     numCrowd: 0
+      numOnes: 1
+Results of simulation: 
+       Rounds: 0
+    Consensus: 1
+
+---------------------------------------------------------------
+Normal termination.
+
+
+
+[ff242@python ps5-ff242]$ ./consensus2 10 0.9 0.5 1541033658
+
+---------------------------------------------------------------
+	Fan Feng
+	CPSC 427/527
+	Wed Nov  7 2018	15:52:54
+---------------------------------------------------------------
+Welcome to Consensus Simulator!
+Using seed: 1541033658
+    numAgents: 10
+   probFickle: 0.9
+      probOne: 0.5
+Population statistics: 
+    numFickle: 8
+     numCrowd: 2
+      numOnes: 2
+Results of simulation: 
+       Rounds: 8
+    Consensus: 0
+
+---------------------------------------------------------------
+Normal termination.
+
+
+
+[ff242@python ps5-ff242]$ ./consensus2 100 0.9 0.5 1541033658
+
+---------------------------------------------------------------
+	Fan Feng
+	CPSC 427/527
+	Wed Nov  7 2018	15:52:59
+---------------------------------------------------------------
+Welcome to Consensus Simulator!
+Using seed: 1541033658
+    numAgents: 100
+   probFickle: 0.9
+      probOne: 0.5
+Population statistics: 
+    numFickle: 91
+     numCrowd: 9
+      numOnes: 49
+Results of simulation: 
+       Rounds: 4039
+    Consensus: 1
+
+---------------------------------------------------------------
+Normal termination.
+
+
+
+[ff242@python ps5-ff242]$ ./consensus2 1 0.1 0.5 1541033658
+
+---------------------------------------------------------------
+	Fan Feng
+	CPSC 427/527
+	Wed Nov  7 2018	15:53:09
+---------------------------------------------------------------
+Welcome to Consensus Simulator!
+Using seed: 1541033658
+    numAgents: 1
+   probFickle: 0.1
+      probOne: 0.5
+Population statistics: 
+    numFickle: 0
+     numCrowd: 1
+      numOnes: 1
+Results of simulation: 
+       Rounds: 0
+    Consensus: 1
+
+---------------------------------------------------------------
+Normal termination.
+
+
+
+[ff242@python ps5-ff242]$ ./consensus2 10 0.1 0.5 1541033658
+
+---------------------------------------------------------------
+	Fan Feng
+	CPSC 427/527
+	Wed Nov  7 2018	15:53:16
+---------------------------------------------------------------
+Welcome to Consensus Simulator!
+Using seed: 1541033658
+    numAgents: 10
+   probFickle: 0.1
+      probOne: 0.5
+Population statistics: 
+    numFickle: 3
+     numCrowd: 7
+      numOnes: 2
+Results of simulation: 
+       Rounds: 12
+    Consensus: 0
+
+---------------------------------------------------------------
+Normal termination.
+
+
+
+[ff242@python ps5-ff242]$ ./consensus2 100 0.1 0.5 1541033658
+
+---------------------------------------------------------------
+	Fan Feng
+	CPSC 427/527
+	Wed Nov  7 2018	15:53:20
+---------------------------------------------------------------
+Welcome to Consensus Simulator!
+Using seed: 1541033658
+    numAgents: 100
+   probFickle: 0.1
+      probOne: 0.5
+Population statistics: 
+    numFickle: 16
+     numCrowd: 84
+      numOnes: 49
+Results of simulation: 
+       Rounds: 2139
+    Consensus: 1
+
+---------------------------------------------------------------
+Normal termination.
+
+
+
+[ff242@python ps5-ff242]$ ./consensus2 1 0.5 0.9 1541033658
+
+---------------------------------------------------------------
+	Fan Feng
+	CPSC 427/527
+	Wed Nov  7 2018	15:54:09
+---------------------------------------------------------------
+Welcome to Consensus Simulator!
+Using seed: 1541033658
+    numAgents: 1
+   probFickle: 0.5
+      probOne: 0.9
+Population statistics: 
+    numFickle: 1
+     numCrowd: 0
+      numOnes: 1
+Results of simulation: 
+       Rounds: 0
+    Consensus: 1
+
+---------------------------------------------------------------
+Normal termination.
+
+
+
+[ff242@python ps5-ff242]$ ./consensus2 10 0.5 0.9 1541033658
+
+---------------------------------------------------------------
+	Fan Feng
+	CPSC 427/527
+	Wed Nov  7 2018	15:54:12
+---------------------------------------------------------------
+Welcome to Consensus Simulator!
+Using seed: 1541033658
+    numAgents: 10
+   probFickle: 0.5
+      probOne: 0.9
+Population statistics: 
+    numFickle: 6
+     numCrowd: 4
+      numOnes: 8
+Results of simulation: 
+       Rounds: 127
+    Consensus: 1
+
+---------------------------------------------------------------
+Normal termination.
+
+
+
+[ff242@python ps5-ff242]$ ./consensus2 100 0.5 0.9 1541033658
+
+---------------------------------------------------------------
+	Fan Feng
+	CPSC 427/527
+	Wed Nov  7 2018	15:54:16
+---------------------------------------------------------------
+Welcome to Consensus Simulator!
+Using seed: 1541033658
+    numAgents: 100
+   probFickle: 0.5
+      probOne: 0.9
+Population statistics: 
+    numFickle: 56
+     numCrowd: 44
+      numOnes: 88
+Results of simulation: 
+       Rounds: 1099
+    Consensus: 1
+
+---------------------------------------------------------------
+Normal termination.
+
+
+
+[ff242@python ps5-ff242]$ ./consensus2 1 0.5 0.1 1541033658
+
+---------------------------------------------------------------
+	Fan Feng
+	CPSC 427/527
+	Wed Nov  7 2018	15:54:19
+---------------------------------------------------------------
+Welcome to Consensus Simulator!
+Using seed: 1541033658
+    numAgents: 1
+   probFickle: 0.5
+      probOne: 0.1
+Population statistics: 
+    numFickle: 1
+     numCrowd: 0
+      numOnes: 0
+Results of simulation: 
+       Rounds: 0
+    Consensus: 0
+
+---------------------------------------------------------------
+Normal termination.
+
+
+
+[ff242@python ps5-ff242]$ ./consensus2 10 0.5 0.1 1541033658
+
+---------------------------------------------------------------
+	Fan Feng
+	CPSC 427/527
+	Wed Nov  7 2018	15:54:21
+---------------------------------------------------------------
+Welcome to Consensus Simulator!
+Using seed: 1541033658
+    numAgents: 10
+   probFickle: 0.5
+      probOne: 0.1
+Population statistics: 
+    numFickle: 6
+     numCrowd: 4
+      numOnes: 0
+Results of simulation: 
+       Rounds: 0
+    Consensus: 0
+
+---------------------------------------------------------------
+Normal termination.
+
+
+
+[ff242@python ps5-ff242]$ ./consensus2 100 0.5 0.1 1541033658
+
+---------------------------------------------------------------
+	Fan Feng
+	CPSC 427/527
+	Wed Nov  7 2018	15:54:24
+---------------------------------------------------------------
+Welcome to Consensus Simulator!
+Using seed: 1541033658
+    numAgents: 100
+   probFickle: 0.5
+      probOne: 0.1
+Population statistics: 
+    numFickle: 56
+     numCrowd: 44
+      numOnes: 7
+Results of simulation: 
+       Rounds: 784
+    Consensus: 0
+
+---------------------------------------------------------------
+Normal termination.
+
+
+
+

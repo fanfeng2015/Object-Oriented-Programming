@@ -1,0 +1,24 @@
+====================Test for Wrong Number of Command Line Arguments====================
+
+[ff242@viper ps2-ff242]$ ./readint 
+
+---------------------------------------------------------------
+	Fan Feng
+	CPSC 427/527
+	Wed Sep 19 2018	22:42:04
+---------------------------------------------------------------
+Usage: 2 arguments expected, 1 argument(s) provided... Exiting.
+
+
+
+[ff242@viper ps2-ff242]$ ./readint sample.in data.in
+
+---------------------------------------------------------------
+	Fan Feng
+	CPSC 427/527
+	Wed Sep 19 2018	22:43:38
+---------------------------------------------------------------
+Usage: 2 arguments expected, 3 argument(s) provided... Exiting.
+
+
+

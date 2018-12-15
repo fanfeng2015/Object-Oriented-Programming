@@ -1,0 +1,27 @@
+
+[ff242@viper ps2-ff242]$ ./readint sample.in 
+
+---------------------------------------------------------------
+	Fan Feng
+	CPSC 427/527
+	Wed Sep 19 2018	22:36:42
+---------------------------------------------------------------
+Skipping char:  83 0x53 'S'
+Skipping char:  99 0x63 'c'
+Skipping char: 111 0x6f 'o'
+Skipping char: 114 0x72 'r'
+Skipping char: 101 0x65 'e'
+Skipping char: 119 0x77 'w'
+Skipping char:  97 0x61 'a'
+Skipping char: 115 0x73 's'
+35
+Skipping char: 116 0x74 't'
+Skipping char: 111 0x6f 'o'
+21
+Skipping char:  46 0x2e '.'
+Loop exit
+---------------------------------------------------------------
+Normal termination.
+
+
+

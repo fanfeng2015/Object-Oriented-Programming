@@ -1,0 +1,3 @@
+main.cpp: Entry point to start the simulation.
+simulator.cpp, simulator.hpp: Classes that model the simulator.
+agent.cpp, agent.hpp: Classes that model the agent.

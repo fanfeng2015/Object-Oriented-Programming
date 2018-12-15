@@ -1,0 +1,119 @@
+
+[ff242@viper ps2-ff242]$ cat test.in
+18291 Progr63amming, 013bro356adly-981 defined,
+i12s the2415activity of 012!getting a computer to
+perform a desired task.  +91829End 22
+102</?>
+
+[ff242@viper ps2-ff242]$ ./readint test.in
+
+---------------------------------------------------------------
+	Fan Feng
+	CPSC 427/527
+	Thu Sep 20 2018	09:15:29
+---------------------------------------------------------------
+18291
+Skipping char:  80 0x50 'P'
+Skipping char: 114 0x72 'r'
+Skipping char: 111 0x6f 'o'
+Skipping char: 103 0x67 'g'
+Skipping char: 114 0x72 'r'
+63
+Skipping char:  97 0x61 'a'
+Skipping char: 109 0x6d 'm'
+Skipping char: 109 0x6d 'm'
+Skipping char: 105 0x69 'i'
+Skipping char: 110 0x6e 'n'
+Skipping char: 103 0x67 'g'
+Skipping char:  44 0x2c ','
+13
+Skipping char:  98 0x62 'b'
+Skipping char: 114 0x72 'r'
+Skipping char: 111 0x6f 'o'
+356
+Skipping char:  97 0x61 'a'
+Skipping char: 100 0x64 'd'
+Skipping char: 108 0x6c 'l'
+Skipping char: 121 0x79 'y'
+-981
+Skipping char: 100 0x64 'd'
+Skipping char: 101 0x65 'e'
+Skipping char: 102 0x66 'f'
+Skipping char: 105 0x69 'i'
+Skipping char: 110 0x6e 'n'
+Skipping char: 101 0x65 'e'
+Skipping char: 100 0x64 'd'
+Skipping char:  44 0x2c ','
+Skipping char: 105 0x69 'i'
+12
+Skipping char: 115 0x73 's'
+Skipping char: 116 0x74 't'
+Skipping char: 104 0x68 'h'
+Skipping char: 101 0x65 'e'
+2415
+Skipping char:  97 0x61 'a'
+Skipping char:  99 0x63 'c'
+Skipping char: 116 0x74 't'
+Skipping char: 105 0x69 'i'
+Skipping char: 118 0x76 'v'
+Skipping char: 105 0x69 'i'
+Skipping char: 116 0x74 't'
+Skipping char: 121 0x79 'y'
+Skipping char: 111 0x6f 'o'
+Skipping char: 102 0x66 'f'
+12
+Skipping char:  33 0x21 '!'
+Skipping char: 103 0x67 'g'
+Skipping char: 101 0x65 'e'
+Skipping char: 116 0x74 't'
+Skipping char: 116 0x74 't'
+Skipping char: 105 0x69 'i'
+Skipping char: 110 0x6e 'n'
+Skipping char: 103 0x67 'g'
+Skipping char:  97 0x61 'a'
+Skipping char:  99 0x63 'c'
+Skipping char: 111 0x6f 'o'
+Skipping char: 109 0x6d 'm'
+Skipping char: 112 0x70 'p'
+Skipping char: 117 0x75 'u'
+Skipping char: 116 0x74 't'
+Skipping char: 101 0x65 'e'
+Skipping char: 114 0x72 'r'
+Skipping char: 116 0x74 't'
+Skipping char: 111 0x6f 'o'
+Skipping char: 112 0x70 'p'
+Skipping char: 101 0x65 'e'
+Skipping char: 114 0x72 'r'
+Skipping char: 102 0x66 'f'
+Skipping char: 111 0x6f 'o'
+Skipping char: 114 0x72 'r'
+Skipping char: 109 0x6d 'm'
+Skipping char:  97 0x61 'a'
+Skipping char: 100 0x64 'd'
+Skipping char: 101 0x65 'e'
+Skipping char: 115 0x73 's'
+Skipping char: 105 0x69 'i'
+Skipping char: 114 0x72 'r'
+Skipping char: 101 0x65 'e'
+Skipping char: 100 0x64 'd'
+Skipping char: 116 0x74 't'
+Skipping char:  97 0x61 'a'
+Skipping char: 115 0x73 's'
+Skipping char: 107 0x6b 'k'
+Skipping char:  46 0x2e '.'
+91829
+Skipping char:  69 0x45 'E'
+Skipping char: 110 0x6e 'n'
+Skipping char: 100 0x64 'd'
+22
+102
+Skipping char:  60 0x3c '<'
+Skipping char:  47 0x2f '/'
+Skipping char:  63 0x3f '?'
+Skipping char:  62 0x3e '>'
+Loop exit
+---------------------------------------------------------------
+Normal termination.
+
+
+

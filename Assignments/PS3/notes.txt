@@ -1,0 +1,4 @@
+main.cpp: Entry point to start the game.
+game.cpp, game.hpp: Interface between user and tad.
+thinkadot.cpp, thinkadot.hpp: Classes that model tad.
+flipflop.hpp: Class that models a single flip-flop in tad.

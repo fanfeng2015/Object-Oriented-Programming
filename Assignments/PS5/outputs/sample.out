@@ -1,0 +1,21 @@
+
+---------------------------------------------------------------
+	Ima Goetting Closeau
+	CPSC 427/527
+	Fri Nov  2 2018	08:00:28
+---------------------------------------------------------------
+Welcome to Consensus Simulator!
+Using seed: 1541033658
+   numAgents:   1000
+  probFickle:    0.8
+     probOne:    0.3
+Population statistics:
+   numFickle:    810
+    numCrowd:    190
+     numOnes:    301
+Results of simulation:
+      Rounds:  35313
+   Consensus:      0
+
+---------------------------------------------------------------
+Normal termination.
