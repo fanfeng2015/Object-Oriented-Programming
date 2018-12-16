@@ -14,7 +14,7 @@ Graph::Graph( istream& infile ){
         infile.get(initials, 4, ' '); // Read three initials ... safely.
         if (infile.eof()) break;
         infile >> score;              // No need to skip ws before using >>.
-        insert(initials, score);      // *** POTENTIAL INFINITE LOOP ***
+        insert( initials, score );      // *** POTENTIAL INFINITE LOOP ***
     }
 }
 
