@@ -10,15 +10,15 @@ using namespace std;
 class Basic {
 public:
     virtual ~Basic() {}
-    virtual void print() { cout << "I am basic.  "; }
+    virtual void print() { cout << "I am basic. "; }
 };
 
 class Virtual : public Basic {
 public:
-    virtual void print() { cout << "I have virtual.  "; }
+    virtual void print() { cout << "I have virtual. "; }
 };
 
 class Question : public Virtual {
 public:
-    virtual void print() { cout << "I am questing.  "; }
+    virtual void print() { cout << "I am questing. "; }
 };
