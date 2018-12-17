@@ -1,6 +1,6 @@
 //===========================================================================
-//  Bind abstract name ITEM to the name of a real class.
-//  A. Fischer, June 15, 2000                                  file: item.hpp
+// Bind abstract name ITEM to the name of a real class.
+// A. Fischer, June 15, 2000                                   file: item.hpp
 //===========================================================================
 
 #pragma once
