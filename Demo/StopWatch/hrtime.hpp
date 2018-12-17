@@ -48,3 +48,19 @@ public:
 inline ostream& operator << (ostream& os, const HirezTime& ht) {
 	return ht.print(os);
 }
+
+// Note: Can also use clock_gettime(), available on Linux only.
+
+//-------------------------------------------------------------------
+// Read a system clock specified by whichClock.
+// This should be one of the clocks described by clock_gettime(2).
+// Supported values on many linux systems are:
+//   CLOCK_REALTIME				System-wide realtime clock.
+//   CLOCK_MONOTONIC			Represents monotonic time.
+//   CLOCK_PROCESS_CPUTIME_ID	High resolution per-process CPU timer.
+//   CLOCK_THREAD_CPUTIME_ID	Thread-specific CPU-time clock.
+
+// void HirezTime::readClock(clockid_t whichClock) {
+// 	int ret = clock_gettime(whichClock, this);
+// 	if (re t <0) perror("Error reading clock");
+// }
