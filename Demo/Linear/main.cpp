@@ -24,14 +24,14 @@ int main( void ) {
     cout << "  Peeking after second insertion: " << *q.peek() << "\n";
     q.put( new Item("Cil",33) );        cout << q << endl;
 
-    cout << "Pop two Exams from Q, put on S. \n";
+    cout << "Pop two Exams from Q, put on S.\n";
     s.put(q.pop()); 
-    s.put(q.pop());                     cout << "\n" << s << endl;
+    s.put(q.pop());                     cout << s << endl;
 
     cout << "Put another Item onto Q: 44.\n";
     q.put( new Item("Dan", 44) );       cout << q << endl;
 
     cout << "Pop two Exams from S and discard.\n";
     delete s.pop();
-    delete s.pop();                     cout <<"\n" << s << endl;
+    delete s.pop();                     cout << s << endl;
 }
