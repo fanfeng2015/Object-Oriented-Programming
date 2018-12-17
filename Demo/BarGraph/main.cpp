@@ -35,7 +35,7 @@ void run( void ) {
     cin.getline(fname, 80);         // Prevents buffer overrun
     ifstream infile(fname);         // Declare and open input stream
     if (!infile) throw Fatal( "Cannot open %s for input - aborting!\n", fname );
-    else say( "File is open and ready to read.\n" );
+    else say( "File is open and ready to read." );
 
     Graph curve( infile );          // Declare and construct a Graph object.
                                     // Realizes data structure from a file
