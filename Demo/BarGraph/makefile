@@ -34,4 +34,3 @@ graph.o: graph.cpp graph.hpp tools.hpp row.hpp item.hpp
 main.o: main.cpp tools.hpp graph.hpp row.hpp item.hpp
 row.o: row.cpp row.hpp item.hpp
 tools.o: tools.cpp tools.hpp
-	

@@ -34,16 +34,17 @@ using namespace std;
 // -------------------------------------------------------------------
 // Macros to make more convenient use of standard library functions.
 // -------------------------------------------------------------------
-#define DUMPp(p) "\n"<<hex<<"   " #p " @ "<<(unsigned)&p<<"   value = "<<(unsigned)p<<"   " #p " --> "<<dec<<*p
-#define DUMPv(k) "\n"<<hex<<"   " #k " @ "<<(unsigned)&k<<"   value = "<<dec<<k
+#define DUMPp(p) "\n" << hex << "   " #p " @ " << (unsigned) &p << "   value = " << (unsigned) p << "   " #p " --> " << dec << *p
+#define DUMPv(k) "\n" << hex << "   " #k " @ " << (unsigned) &k << "   value = " << dec << k
 
 // -------------------------------------------------------------------
 // Routine screen and process management.-----------------------------
 // -------------------------------------------------------------------
-void     fbanner( ostream& fout );
-#define  banner()  fbanner( cout )
-void     bye( void );
-void     delay( int );
+void    fbanner( ostream& fout );
+#define banner() fbanner( cout )
+void    bye( void );
+void    say( const char* format, ... );
+void    delay( int );
 
 // -------------------------------------------------------------------
 // I/O Extension. ----------------------------------------------------
@@ -51,7 +52,7 @@ void     delay( int );
 istream&  flush( istream& is );     // Used in cin >> x >> flush;
 
 // -------------------------------------------------------------------
-// Fatal error handling. --------------------------------------------------
+// Fatal error handling. ---------------------------------------------
 // -------------------------------------------------------------------
 // The fatal family of tools are to provide a quick way
 // to terminate a program with a descriptive message.
@@ -62,7 +63,7 @@ istream&  flush( istream& is );     // Used in cin >> x >> flush;
 // The fatal() function (lower-case "f").
 // This is called like C's printf() function to produce a
 // formatted error comment.
-void    fatal( const char* format, ... );
+void fatal( const char* format, ... );
 
 // The Fatal() class for use with throw.
 // This class is for fatal error exceptions.
@@ -72,16 +73,16 @@ void    fatal( const char* format, ... );
 //    The what() member function returns the stored string.
 class Fatal {
 private:
-        char msg[256];
+    char msg[256];
 public:
-        Fatal( const char* format, ... );
-        const char* what() const { return msg; }
+    Fatal( const char* format, ... );
+    const char* what() const { return msg; }
 };
 
 // -------------------------------------------------------------------
 // Time and date. ----------------------------------------------------
 // -------------------------------------------------------------------
-void   when( char* date, char* hour );
-char*  today( char* date );
-char*  oclock( char* hour );
+void  when( char* date, char* hour );
+char* today( char* date );
+char* oclock( char* hour );
 
