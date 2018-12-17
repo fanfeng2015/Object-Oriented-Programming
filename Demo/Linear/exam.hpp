@@ -26,7 +26,7 @@ class Exam {                 // One name-score pair
         ~Exam() { cout << "    Deleting Score " << initials << "..."; }
         
         ostream& Print( ostream& os ) {
-            return os << initials << ": " << score << "  ";
+            return os << initials << ": " << score;
         }
 };
 

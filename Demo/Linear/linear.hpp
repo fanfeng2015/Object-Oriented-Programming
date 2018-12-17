@@ -13,12 +13,12 @@
 using namespace std;
 
 class Linear : public Container {
+    protected:
+        Cell* head;    // This is a dummy header for the list.
+
     private:
         Cell* here;    // Cursor for traversing the container.
         Cell* prior;   // Trailing pointer for traversing the container.
-
-    protected:
-        Cell* head;    // This is a dummy header for the list.
 
     protected:
         Linear() : head( new Cell ), here( nullptr ), prior( head ) {}

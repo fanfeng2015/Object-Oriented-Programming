@@ -12,15 +12,15 @@ int main( void ) {
     Stack s;
     Queue q;
 
-    cout << "\nPutting 3 items on the Stack S: 99, 88, 77.\n";
-    s.put( new Item("Ned", 99) );       // cout << S << endl;
-    s.put( new Item("Max", 88) );       // cout << S << endl;
+    cout << "Putting 3 items on the Stack S: 99, 88, 77.\n";
+    s.put( new Item("Ned", 99) );
+    s.put( new Item("Max", 88) );
     cout << "  Peeking after second insertion: " << *s.peek() << "\n";
     s.put( new Item("Leo",77) );        cout << s << endl;
 
     cout << "Putting 3 items on the Queue Q: 11, 22, 33.\n";
-    q.put( new Item("Ali",11) );        // cout << Q << endl;
-    q.put( new Item("Bea",22) );        // cout << Q << endl;
+    q.put( new Item("Ali",11) );
+    q.put( new Item("Bea",22) );
     cout << "  Peeking after second insertion: " << *q.peek() << "\n";
     q.put( new Item("Cil",33) );        cout << q << endl;
 
