@@ -8,5 +8,5 @@ class B : protected A {};     // protected derivation
 int main() {
     A* ap;
     B* bp;
-    ap = bp;
+    ap = bp; // error: 'A' is an inaccessible base of 'B' 
 }
