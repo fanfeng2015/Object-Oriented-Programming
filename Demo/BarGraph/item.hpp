@@ -1,6 +1,6 @@
 //===========================================================================
 // Item: A student's initials and one exam score.
-// A. Fischer, October 1, 2000                                file: item.hpp
+// A. Fischer, October 1, 2000                                 file: item.hpp
 // Modified M. & A. Fischer, September 17, 2009
 //===========================================================================
 #pragma once
