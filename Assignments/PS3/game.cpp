@@ -36,13 +36,13 @@ void Game::play() {
 				tad.reset(cmd);
 				continue;
 			case 'A':
-			tad.play(cmd);
+				tad.play(cmd);
 				continue;
 			case 'B':
-			tad.play(cmd);
+				tad.play(cmd);
 				continue;
 			case 'C':
-			tad.play(cmd);
+				tad.play(cmd);
 				continue;
 			default:
 				cout << "Invalid command. Please try again..." << endl;
